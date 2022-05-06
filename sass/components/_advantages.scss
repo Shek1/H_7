@@ -1,0 +1,40 @@
+.advantages {
+    padding-top: 94px;
+}
+
+.advantages-list {
+    display: flex;
+}
+
+.advantages-list--item {
+    max-width: 270px;
+
+    &:not(:last-child) {
+         margin-right: 30px;
+    }
+}
+
+.advantages-list--title {
+    margin-bottom: 10px;
+    color: $secondary-text-color;
+    font-weight: 700;
+    line-height: 1.14;
+}
+
+.advantages-list--box {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+}
+
+.advantages-list--icon {
+    margin: auto;
+}
+
+.advantages-list--paragraph {
+    font-weight: 400;
+    line-height: 1.71;
+}
