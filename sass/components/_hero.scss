@@ -12,7 +12,7 @@
     letter-spacing: 0.06em;
 }
 
-.hero--title {
+.hero__title {
     display: inline-block;
     margin: auto;
     margin-top: 200px;
@@ -23,7 +23,7 @@
     text-transform: uppercase
 }
 
-.hero--button {
+.hero__button {
     @extend %button;
     display: block;
     margin: auto;
