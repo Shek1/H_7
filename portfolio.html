@@ -55,23 +55,23 @@
       </section>
     </header>
     <main>
-      <section class="portfolio section">
+      <section class="portfolio">
         <div class="container">
-          <ul class="portfolio__filter-list">
-            <li class="portfolio__filter-item">
-              <button class="portfolio__filter-button" type="button">Все</button>
+          <ul class="portfolio__filter portfolio-filter">
+            <li class="portfolio-filter__item">
+              <button class="portfolio-filter__button" type="button">Все</button>
             </li>
-            <li class="portfolio__filter-item">
-              <button class="portfolio__filter-button" type="button">Веб-сайты</button>
+            <li class="portfolio-filter__item">
+              <button class="portfolio-filter__button" type="button">Веб-сайты</button>
             </li>
-            <li class="portfolio__filter-item">
-              <button class="portfolio__filter-button" type="button">Приложения</button>
+            <li class="portfolio-filter__item">
+              <button class="portfolio-filter__button" type="button">Приложения</button>
             </li>
-            <li class="portfolio__filter-item">
-              <button class="portfolio__filter-button" type="button">Дизайн</button>
+            <li class="portfolio-filter__item">
+              <button class="portfolio-filter__button" type="button">Дизайн</button>
             </li>
-            <li class="portfolio__filter-item">
-              <button class="portfolio__filter-button" type="button">Маркетинг</button>
+            <li class="portfolio-filter__item">
+              <button class="portfolio-filter__button" type="button">Маркетинг</button>
             </li>
           </ul>
           <ul class="portfolio__list">
@@ -223,54 +223,54 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="container flex">
         <div class="footer__address-list">
           <a class="footer__logo" href="/">Web <span class="footer__logo-color">Studio</span></a>
           <address class="footer__address">г. Киев, пр-т Леси Украинки, 26</address>
-          <ul class="contact-list">
-            <li class="contact-list__item">
-              <a class="contact-list__link" href="mailto:info@example.com">info@example.com</a>
+          <ul class="footer__contact-list">
+            <li class="footer__item">
+              <a class="footer__link" href="mailto:info@example.com">info@example.com</a>
             </li>
-            <li class="contact-list__item">
-              <a class="contact-list__link" href="tel:+380991111111">+38 099 111 11 11</a>
+            <li class="footer__item">
+              <a class="footer__link" href="tel:+380991111111">+38 099 111 11 11</a>
             </li>
           </ul>
         </div>
         <div>
           <h3 class="footer__join">присоединяйтесь</h3>
-          <ul class="social-link flex">
-            <li class="social-link__item">
+          <ul class="footer__social-link">
+            <li class="footer__social-item">
               <a href="">
-                <div class="social-link__container">
-                  <svg class="social-link__icon" style="width: 20px; height: 20px">
+                <div class="footer__container">
+                  <svg class="footer__social-icon" style="width: 20px; height: 20px">
                     <use href="./images/symbol-defs.svg#icon-instagram"></use>
                   </svg>
                 </div>
               </a>
             </li>
-            <li class="social-link__item">
+            <li class="footer__social-item">
               <a href="">
-                <div class="social-link__container">
-                  <svg class="social-link__icon" style="width: 20px; height: 20px">
+                <div class="footer__container">
+                  <svg class="footer__social-icon" style="width: 20px; height: 20px">
                     <use href="./images/symbol-defs.svg#icon-twitter"></use>
                   </svg>
                 </div>
               </a>
             </li>
-            <li class="social-link__item">
+            <li class="footer__social-item">
               <a href="">
-                <div class="social-link__container">
-                  <svg class="social-link__icon" style="width: 20px; height: 20px">
+                <div class="footer__container">
+                  <svg class="footer__social-icon" style="width: 20px; height: 20px">
                     <use href="./images/symbol-defs.svg#icon-facebook"></use>
                   </svg>
                 </div>
               </a>
             </li>
-            <li class="social-link__item">
+            <li class="footer__social-item">
               <a href="">
-                <div class="social-link__container">
-                  <svg class="social-link__icon" style="width: 20px; height: 20px">
+                <div class="footer__container">
+                  <svg class="footer__social-icon" style="width: 20px; height: 20px">
                     <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                   </svg>
                 </div>
@@ -278,19 +278,13 @@
             </li>
           </ul>
         </div>
-        <form class="footer-form">
+        <form class="footer__form">
           <div class="">
-            <h3 class="footer-form__subscribe">Подпишитесь на рассылку</h3>
-            <input
-              class="footer-form__input"
-              type="email"
-              name="email"
-              id=""
-              placeholder="E-mail"
-            />
-            <button class="footer-form__button" type="submit">
+            <h3 class="footer__subscribe">Подпишитесь на рассылку</h3>
+            <input class="footer__input" type="email" name="email" id="" placeholder="E-mail" />
+            <button class="footer__button" type="submit">
               Подписаться
-              <svg class="footer-form__icon" style="width: 24px; height: 24px">
+              <svg class="footer__icon" style="width: 24px; height: 24px">
                 <use href="./images/symbol-defs.svg#icon-send"></use>
               </svg>
             </button>
