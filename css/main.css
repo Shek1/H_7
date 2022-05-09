@@ -18,6 +18,22 @@ body {
   letter-spacing: 0.03em;
 }
 
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 h1,
 h2,
 h3,
@@ -30,25 +46,12 @@ ul {
   padding: 0;
 }
 
-.container {
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin: 0 auto;
+ul {
+  list-style: none;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+a {
+  text-decoration: none;
 }
 
 .work__section-title, .team__title, .client__title {
@@ -69,15 +72,16 @@ ul {
   background-color: #2196f3;
 }
 
-ul {
-  list-style: none;
+.header__logo, .footer__logo {
+  margin-right: 86px;
+  color: #2196f3;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
-a {
-  text-decoration: none;
-}
-
-.visually-hidden {
+.modal__checkbox-input {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -86,15 +90,6 @@ a {
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.header__logo, .footer__logo {
-  margin-right: 86px;
-  color: #2196f3;
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
 }
 
 .header,

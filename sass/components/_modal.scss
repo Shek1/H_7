@@ -89,12 +89,6 @@
             transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
     
-
-
-
-
-
-
     &__checkbox-label &__icon-check {
             position: relative;
             width: 16px;
@@ -125,7 +119,11 @@
     &__input-text:not(:placeholder-shown)+&__label-text {
             transform: translate(-25px, -40px);
         }
-    
+        
+    &__checkbox-input {
+        @extend %visually-hidden;
+    }
+
     &__checkbox-input:checked+&__icon-check {
             background-color: $primary-accent-color;
             border-color: $primary-accent-color;
